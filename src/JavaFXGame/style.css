@@ -1,0 +1,109 @@
+/*setting the background image for the gui application */
+#pane{
+    -fx-background-image: url("background_image.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 800;
+}
+
+
+/*setting the restart button*/
+#restart{
+        -fx-background-image: url("restart_button.jpg");
+}
+
+
+
+/*setting for the hint label.setting colour,size,font*/
+#hint{
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+
+
+/*setting for the check button.setting colour,size,font and background image*/
+#checkButton{
+
+         -fx-text-fill: red;
+         -fx-font-size: 40;
+         -fx-font-family: 'Comic Sans MS';
+        -fx-background-image: url("check.jpg");
+}
+
+
+
+/*setting for the check button when hover*/
+#checkButton:hover {
+        -fx-effect: dropshadow( gaussian , #ffff ,4,4,4,4 );
+}
+
+
+/*setting for the check button when pressed*/
+#checkButton:pressed {
+        -fx-effect: dropshadow( gaussian , #0000 ,0,0,0,2 );
+}
+
+
+
+/*setting for the restart button when hover*/
+#restart:hover {
+        -fx-background-color: 
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+
+
+
+
+/*setting for the restart button when pressed*/
+#restart:pressed {
+        -fx-padding: 10 15 13 15;
+        -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+
+/*setting for the game over label.setting colour,size,font*/
+#gameover{
+    -fx-font-size: 40;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+
+
+
+
+/*setting for the score label.setting colour,size,font*/
+#score{
+    -fx-font-size: 50;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+
+
+
+/*setting the first textbox group where the letters are already visible*/
+#textbox{
+        -fx-background-color:yellow;
+        -fx-width:44;
+        -fx-font-family : 'Comic Sans MS';
+        -fx-font-size: 40;
+        -fx-background-radius: 20;
+}
+
+
+
+
+
+/*setting the second textbox group where the letters are not visible*/
+#textbox1{
+        -fx-background-color:aquamarine ;
+        -fx-width:44;
+        -fx-font-family : 'Comic Sans MS';
+        -fx-font-size: 40;
+        -fx-background-radius: 20;
+}
